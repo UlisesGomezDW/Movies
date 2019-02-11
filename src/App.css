@@ -1,0 +1,48 @@
+.main-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.linksito {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: darkcyan;
+  color: #fff !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.components {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.component-container{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+
+.component-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
